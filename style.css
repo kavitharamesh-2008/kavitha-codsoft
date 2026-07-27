@@ -1,53 +1,125 @@
+/* Reset */
+
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Arial, sans-serif;
 }
+
+/* Body */
 
 body{
-    background:#f2f2f2;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:100vh;
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+    color:#333;
 }
 
-.calculator{
-    background:#222;
-    padding:20px;
-    border-radius:15px;
-    box-shadow:0 0 15px rgba(0,0,0,0.3);
-}
+/* Header */
 
-#display{
-    width:100%;
-    height:60px;
-    margin-bottom:15px;
-    font-size:24px;
-    text-align:right;
-    padding:10px;
-    border:none;
-    border-radius:10px;
-    background:#fff;
-}
-
-.buttons{
-    display:grid;
-    grid-template-columns:repeat(4,70px);
-    gap:10px;
-}
-
-button{
-    height:60px;
-    font-size:20px;
-    border:none;
-    border-radius:10px;
-    background:#4CAF50;
+header{
+    background:#1e3a8a;
     color:white;
-    cursor:pointer;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
 }
 
-button:hover{
-    background:#45a049;
+header h1{
+    font-size:32px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+/* Home */
+
+#home{
+    text-align:center;
+    padding:100px 20px;
+    background:#dbeafe;
+}
+
+#home h2{
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+#home p{
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    background:#2563eb;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.btn:hover{
+    background:#1d4ed8;
+}
+
+/* Courses */
+
+#courses{
+    padding:80px 20px;
+    text-align:center;
+}
+
+.course{
+    background:white;
+    width:70%;
+    margin:20px auto;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Features */
+
+#features{
+    background:#eef6ff;
+    padding:80px 20px;
+    text-align:center;
+}
+
+#features ul{
+    list-style:none;
+}
+
+#features li{
+    display:inline-block;
+    background:#2563eb;
+    color:white;
+    margin:10px;
+    padding:10px 20px;
+    border-radius:20px;
+}
+
+/* Contact */
+
+#contact{
+    padding:80px 20px;
+    text-align:center;
+}
+
+/* Footer */
+
+footer{
+    background:#1e3a8a;
+    color:white;
+    text-align:center;
+    padding:20px;
 }
