@@ -1,5 +1,4 @@
-/* Reset */
-
+./* Reset */
 *{
     margin:0;
     padding:0;
@@ -7,7 +6,6 @@
 }
 
 /* Body */
-
 body{
     font-family:Arial, sans-serif;
     background:#f4f4f4;
@@ -15,9 +13,8 @@ body{
 }
 
 /* Header */
-
 header{
-    background:#1e3a8a;
+    background:#222;
     color:white;
     display:flex;
     justify-content:space-between;
@@ -26,7 +23,7 @@ header{
 }
 
 header h1{
-    font-size:32px;
+    color:#ff69b4;
 }
 
 nav a{
@@ -37,75 +34,112 @@ nav a{
 }
 
 nav a:hover{
-    color:yellow;
+    color:#ff69b4;
 }
 
-/* Home */
-
+/* Home Section */
 #home{
     text-align:center;
     padding:100px 20px;
-    background:#dbeafe;
 }
 
 #home h2{
-    font-size:45px;
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+#home h3{
+    font-size:28px;
+    color:#ff69b4;
     margin-bottom:20px;
 }
 
 #home p{
-    font-size:20px;
-    margin-bottom:30px;
+    font-size:18px;
+    max-width:700px;
+    margin:auto;
+    line-height:1.6;
 }
 
+/* Button */
 .btn{
     display:inline-block;
-    background:#2563eb;
-    color:white;
+    margin-top:30px;
     padding:12px 25px;
+    background:#ff69b4;
+    color:white;
     text-decoration:none;
     border-radius:5px;
 }
 
 .btn:hover{
-    background:#1d4ed8;
+    background:#ff1493;
 }
+/* About Section */
 
-/* Courses */
-
-#courses{
-    padding:80px 20px;
+#about{
     text-align:center;
-}
-
-.course{
+    padding:80px 20px;
     background:white;
-    width:70%;
-    margin:20px auto;
-    padding:20px;
-    border-radius:10px;
-    box-shadow:0 0 10px rgba(0,0,0,0.1);
 }
 
-/* Features */
+#about img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    margin:20px 0;
+}
 
-#features{
-    background:#eef6ff;
+#about p{
+    max-width:800px;
+    margin:auto;
+    line-height:1.8;
+    font-size:18px;
+}
+
+/* Skills Section */
+
+#skills{
+    background:#f9f9f9;
     padding:80px 20px;
     text-align:center;
 }
 
-#features ul{
+#skills ul{
     list-style:none;
 }
 
-#features li{
+#skills li{
     display:inline-block;
-    background:#2563eb;
+    background:#ff69b4;
     color:white;
-    margin:10px;
     padding:10px 20px;
+    margin:10px;
     border-radius:20px;
+    font-weight:bold;
+}
+/* Projects */
+
+#projects{
+    padding:80px 20px;
+    background:white;
+    text-align:center;
+}
+
+.project{
+    width:70%;
+    margin:20px auto;
+    padding:20px;
+    background:#f4f4f4;
+    border-radius:10px;
+}
+
+/* Resume */
+
+#resume{
+    padding:80px 20px;
+    text-align:center;
+    background:#ffeef7;
 }
 
 /* Contact */
@@ -113,12 +147,18 @@ nav a:hover{
 #contact{
     padding:80px 20px;
     text-align:center;
+    background:white;
+}
+
+#contact p{
+    margin:10px 0;
+    font-size:18px;
 }
 
 /* Footer */
 
 footer{
-    background:#1e3a8a;
+    background:#222;
     color:white;
     text-align:center;
     padding:20px;
